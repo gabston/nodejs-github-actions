@@ -24,7 +24,7 @@ jobs:
         
     - name: Install test dependencies
       run: |
-        piython -m pip install --upgrade pip
+        python -m pip install --upgrade pip
         pip install ruff pytest
     - name: Rodar comando main.py
       run: |
