@@ -33,6 +33,6 @@ jobs:
     - name: Usando pytest
       run: |
         pytest
-    - name: Usando ruff
+    - name: printando workspace
       run: |
-        ruff --format=github --select=E9,F63,F7,F82 --target-version=py37 .
+        echo $GITHUB_WORKSPACE
